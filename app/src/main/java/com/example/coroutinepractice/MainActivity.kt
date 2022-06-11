@@ -14,9 +14,7 @@ class MainActivity : AppCompatActivity() {
         binding = setContentView(this, R.layout.activity_main)
 
         val user1 = User("Tayeb", "Shahbakhsh", 19)
-
         val user2 = User("Mamad", "Alizadeh", 23)
-        
         binding.user = user1
 
         binding.changeUserBtn.setOnClickListener {
